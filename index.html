@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Particle Tracker</title>
+    <link rel="stylesheet" type="text/css" media="screen" href="css/styles.css" />
+    <script src="js/app.js"></script>
+  </head>
+
+  <body>
+    <h1>Particle Logger</h1>
+    <form id="new-item-form">
+
+      <div id="form-wrapper">
+
+        <div class="form-item">
+          <label for="title" class="primary">Name</label>
+          <input type="text" id="name" required/>
+        </div>
+
+        <div class="form-item">
+          <label for="mass" class="primary">Mass</label>
+          <input type="text" id="mass" required/>
+        </div>
+
+        <div class="form-item">
+          <label for="type" class="primary">Type</label>
+          <select id="type">
+            <option value = "" disabled selected></option>
+            <option value = "boson">Boson</option>
+            <option value = "fermion">Fermion</option>
+          </select>
+        </div>
+
+        <div class="form-item">
+          <label for="handronic" class="primary">Hadronic?</label>
+          <select id="hadronic">
+            <option value = "" disabled selected></option>
+            <option value = "yes">Yes</option>
+            <option value = "no">No</option>
+          </select>
+        </div>
+
+        <input id="save-button" type="submit" value="Save"/>
+
+      </div>
+    </form>
+
+    <button id="delete-all">Delete All</button>
+    <h1>Particle List</h1>
+    <ul id="particle-list"></ul>
+  </body>
+</html>

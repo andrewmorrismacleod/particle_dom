@@ -1,0 +1,63 @@
+.particle-fieldset {
+  border-style: none;
+  margin: 0px;
+  padding: 0px;
+}
+
+.form-item {
+  position: center;
+  border-style: none;
+  background-color: green;
+  margin: 20px;
+  border-radius: 25px;
+  height:50px;
+  line-height:50px;
+  width:400px;
+  padding-left: 30px;
+}
+
+.form-item-quarks {
+  position: center;
+  border-style: none;
+  background-color: green;
+  margin: 20px;
+  border-radius: 25px;
+  height:150px;
+  width:400px;
+  padding-left: 30px;
+}
+
+.particle-list-item {
+
+  position: center;
+  border-style: none;
+  background-color: orange;
+  margin: 20px;
+  border-radius: 25px;
+  height:250px;
+  width:400px;
+  padding-left: 30px;
+  padding-top: 30px;
+
+}
+
+#delete-all {
+  background-color: yellow;
+  border-radius: 10px;
+
+}
+
+#save-button {
+  background-color: yellow;
+  margin-bottom: 10px;
+  border-radius: 10px;
+}
+
+body {
+  background-color: black;
+  color: white;
+}
+
+li {
+  list-style-type: none;
+}
